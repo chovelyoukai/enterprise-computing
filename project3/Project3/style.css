@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+#title
+{
+	/*Size & Shape*/
+	max-width: 45em;
+	padding: 0 10px 10px 10px;
+	/*Color*/
+	background: #000a40;
+	/*Font Stuff*/
+	font: 1.2em/1.62 sans-serif;
+	font-size: large;
+	font-weight:bold;
+	color: white;
+	/* center it */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text
+{
+	padding: 5%;
+	max-width: 40em;
+}
+
+/* our main text block in the middle */
+
+.main
+{
+	/*size and shape*/
+	max-width: 45em;
+	margin:20px;
+	padding: 10px;
+	background: #000a40;
+	font: 1.2em/1.62 sans-serif;
+	font-size: large;
+	text-indent: 0;
+	color: white;
+	/* center it */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* override for <td> navbar elements */
+
+.navbar
+{
+	width:30%;
+	border: none;
+	text-align:center;
+}
+
+body
+{
+	background-color: #1A1A1A;
+}
+
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Link formatting */
+
+a:link {color: #ffffff;}
+a:visited {color: #ffffff;}
+a:hover {color: #aaeeff;}
+a:focus {color: #aaeeff;}
+a:active {color: #efefef;}
+a:focus
+{
+	outline: 0;
+	color: #00FFFF;
+	filter: invert(100%);
+}
+
+/* Table formatting */
+
+table
+{
+	border-collapse: collapse;
+}
+td
+{
+	border: 1px solid white;
+	padding: 10px;
+}
+th
+{
+	text-align: left;
+}
